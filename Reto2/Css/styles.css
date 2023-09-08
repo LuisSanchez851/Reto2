@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    width: 40vmax;
+    height: 35vmin;
+}
+.content_imagen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid blueviolet; 
+    padding: 0;
+    cursor: pointer;
+    transition: border 0.3s;
+}
